@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("./res/fonts/Karla-Regular.ttf") format("truetype"),
+    url("./res/fonts/Karla-Bold.ttf") format("truetype");
+}
+
 html {
   font-size: 62.5%;
 }
@@ -18,4 +24,9 @@ li {
 
 body {
   background-color: #fff7eb;
+  font-family: "Karla", sans-serif;
+}
+
+h1 {
+  font-family: "Karla-Bold", sans-serif;
 }
