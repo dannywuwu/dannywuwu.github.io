@@ -1,6 +1,6 @@
 import React from "react";
 // import logo from './logo.svg';
-import "./App.css";
+import "./res/styles/App.scss";
 import { Navbox } from "./components/Navbox";
 import { About } from "./components/About";
 
