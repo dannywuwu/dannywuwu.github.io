@@ -9,30 +9,35 @@ export const About: React.FC<AboutProps> = () => {
       <div className="intro">
         <img src="" alt="danny" />
         <p>
-          Nice to meet you! I am a Software Engineering student at the
-          University of Waterloo.
+          Nice to meet you! I am a Software Engineering student (SE 2024) at the
+          University of Waterloo, looking for fun software to play around with.
         </p>
       </div>
       <div className="stats">
         <h1>Stats</h1>
         <Card>
-          <h3>Web Development</h3>
-          <p>Combo of choice: React + TypeScript (used for this website!)</p>
-        </Card>
-        <Card>
           <h3>Coding</h3>
           <p>
-            Python + VIM are my go-to when I need to code up something quick, I
-            also have a considerable amount of experience with C++ and Java.
+            Python + VIM are my go-to when I need to cook up something quick.
+            I'm also interested in functional programming (thanks to Racket!).
           </p>
         </Card>
         <Card>
           <h3>Music</h3>
-          <p>Piano </p>
+          <p>
+            Music instruments have been a big part of my life from a young age;
+            I received my Associate Diploma (ARCT) in piano performance in 2019
+            and I also play flute and recorder.
+          </p>
         </Card>
         <Card>
-          <h3>Bubble Tea</h3>
-          <p>Rose Oolong Milk Tea: 50% honey, no ice, pearls</p>
+          <h3>Talk to me about:</h3>
+          <ul>
+            <li>Calisthenics</li>
+            <li>Manga</li>
+            <li>Asian Pop</li>
+            <li>Bubble Tea</li>
+          </ul>
         </Card>
       </div>
     </div>
