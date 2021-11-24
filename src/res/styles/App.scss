@@ -1,0 +1,14 @@
+@import "styles";
+
+@mixin mobile-sizing {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+.App {
+  @include mobile-sizing;
+  color: $accent;
+}
+
+@media screen and (min-width: $small) {
+}
