@@ -10,5 +10,23 @@
   color: $accent;
 }
 
+.section-title {
+  position: relative;
+  display: table;
+}
+
+// highlight title
+.section-title::after {
+  content: "";
+  background-color: $secondary;
+  height: 0.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
 @media screen and (min-width: $small) {
 }
