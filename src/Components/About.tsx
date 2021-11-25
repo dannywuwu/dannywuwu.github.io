@@ -7,38 +7,43 @@ export const About: React.FC<AboutProps> = () => {
   return (
     <div className="about-wrapper">
       <div className="intro">
+        <h1 className="section-title">About</h1>
         <img src="" alt="danny" />
         <p>
           Nice to meet you! I am a Software Engineering student (SE 2024) at the
-          University of Waterloo, looking for fun software to play around with.
+          University of Waterloo, looking for fun programs to play around with.
         </p>
       </div>
       <div className="stats">
-        <h1>Stats</h1>
-        <Card>
-          <h3>Coding</h3>
-          <p>
-            Python + VIM are my go-to when I need to cook up something quick.
-            I'm also interested in functional programming (thanks to Racket!).
-          </p>
-        </Card>
-        <Card>
-          <h3>Music</h3>
-          <p>
-            Music instruments have been a big part of my life from a young age;
-            I received my Associate Diploma (ARCT) in piano performance in 2019
-            and I also play flute and recorder.
-          </p>
-        </Card>
-        <Card>
-          <h3>Talk to me about:</h3>
-          <ul>
-            <li>Calisthenics</li>
-            <li>Manga</li>
-            <li>Asian Pop</li>
-            <li>Bubble Tea</li>
-          </ul>
-        </Card>
+        <h1 className="section-title">Stats</h1>
+        {/* Coding */}
+        <div className="coding-stats">
+          <h2 className="subsection-title">Coding</h2>
+          <Card title={"Languages"}>
+            <p>Python • C# • C++ • C • Java • SQL •</p>
+            <p>JavaScript (TypeScript) • HTML/CSS (Sass)</p>
+          </Card>
+          <Card title={"Frameworks"}>
+            <p>
+              React/Redux • React Native • Angular • Flask • Node • Express •
+              ASP.NET Core • Dapper ORM
+            </p>
+          </Card>
+          <Card title={"Tools"}>
+            <p>Vim • Git • Firebase • Bash • Websockets • Jest</p>
+          </Card>
+        </div>
+        {/* Personal */}
+        <div className="personal-stats">
+          <h2 className="subsection-title">Personal</h2>
+          <Card title={"Music"}>
+            <p>Piano • Flute • Recorder</p>
+            <p>Classical • Jazz Fusion</p>
+          </Card>
+          <Card title={"Hobbies"}>
+            <p>Calisthenics • Manga • Bubble Tea</p>
+          </Card>
+        </div>
       </div>
     </div>
   );
