@@ -28,5 +28,10 @@
   z-index: -1;
 }
 
+.subsection-title {
+  text-decoration: underline;
+  margin: 2rem 0;
+}
+
 @media screen and (min-width: $small) {
 }
