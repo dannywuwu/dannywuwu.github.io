@@ -22,8 +22,10 @@ export const About: React.FC<AboutProps> = () => {
         <div className="coding-stats">
           <h2 className="subsection-title">Coding</h2>
           <Card title={"Languages"}>
-            <p>Python • C# • C++ • C • Java • SQL •</p>
-            <p>JavaScript (TypeScript) • HTML/CSS (Sass)</p>
+            <p>
+              Python • C# • C++ • C • Java • SQL • JavaScript (TypeScript) •
+              HTML/CSS (Sass)
+            </p>
           </Card>
           <Card title={"Frameworks"}>
             <p>
@@ -40,8 +42,8 @@ export const About: React.FC<AboutProps> = () => {
           <h2 className="subsection-title">Personal</h2>
           <Card title={"Music"}>
             <p>
-              I play piano, flute, and recorder - I love listening to jazz
-              fusion.
+              I play piano at the ARCT level, as well as flute and recorder to a
+              lesser degree. I also love listening to jazz fusion.
             </p>
           </Card>
           <Card title={"Hobbies"}>
