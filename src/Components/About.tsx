@@ -37,11 +37,14 @@ export const About: React.FC<AboutProps> = () => {
         <div className="personal-stats">
           <h2 className="subsection-title">Personal</h2>
           <Card title={"Music"}>
-            <p>Piano • Flute • Recorder</p>
-            <p>Classical • Jazz Fusion</p>
+            <p>
+              I play piano, flute, and recorder, and love listening to jazz
+              fusion.
+            </p>
           </Card>
           <Card title={"Hobbies"}>
-            <p>Calisthenics • Manga • Bubble Tea</p>
+            In my free time, I enjoy engaging in bodyweight fitness, reading
+            manga, and restraining myself from drinking milk tea.
           </Card>
         </div>
       </div>
