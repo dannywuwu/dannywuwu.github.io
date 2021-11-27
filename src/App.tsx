@@ -2,7 +2,7 @@ import React from "react";
 // import logo from './logo.svg';
 import "./res/styles/App.scss";
 import { About } from "./components/About";
-import { Timeline } from "./components/Timeline";
+import { News } from "./components/News";
 import { Contact } from "./components/Contact";
 import { Intro } from "./components/Intro";
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Intro></Intro>
       <About></About>
-      <Timeline></Timeline>
+      <News></News>
       <Contact></Contact>
     </div>
   );

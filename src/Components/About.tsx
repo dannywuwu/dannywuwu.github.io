@@ -40,13 +40,13 @@ export const About: React.FC<AboutProps> = () => {
           <h2 className="subsection-title">Personal</h2>
           <Card title={"Music"}>
             <p>
-              I play piano, flute, and recorder, and love listening to jazz
+              I play piano, flute, and recorder - I love listening to jazz
               fusion.
             </p>
           </Card>
           <Card title={"Hobbies"}>
             In my free time, I enjoy engaging in bodyweight fitness, reading
-            manga, and restraining myself from drinking milk tea.
+            manga, and restricting my consumption of milk tea.
           </Card>
         </div>
       </div>
