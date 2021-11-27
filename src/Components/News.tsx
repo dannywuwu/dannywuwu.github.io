@@ -1,10 +1,11 @@
 import React from "react";
+import { Timeline } from "./Timeline";
 
 interface NewsProps {}
 
-const experiences = {
+const experiences: Record<string, string> = {
   "Sept 2021":
-    "Back at Smart & Biggar, performing NLP and data engineering with some fullstack development on the side",
+    "Back at Smart & Biggar, performing NLP analysis and data engineering in Python with some Angular fullstack development on the side.",
 };
 
 export const News: React.FC<NewsProps> = (props: NewsProps) => {
@@ -13,6 +14,7 @@ export const News: React.FC<NewsProps> = (props: NewsProps) => {
       <h1 className="section-title" id="news">
         News
       </h1>
+      <Timeline entries={experiences}></Timeline>
     </div>
   );
 };
