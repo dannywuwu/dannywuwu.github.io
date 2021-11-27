@@ -8,10 +8,18 @@ export const Navbox: React.FC<NavboxProps> = () => {
     // resume, email, github, linkedin
     <div className="nav-wrapper">
       <ul className="nav-box">
-        <li>About</li>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <a href="#about">
+          <li>About</li>
+        </a>
+        <a href="#news">
+          <li>News</li>
+        </a>
+        <a href="#projects">
+          <li>Projects</li>
+        </a>
+        <a href="#contact">
+          <li>Contact</li>
+        </a>
       </ul>
     </div>
   );

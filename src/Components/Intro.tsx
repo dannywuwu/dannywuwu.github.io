@@ -7,7 +7,7 @@ interface Props {}
 export const Intro = (props: Props) => {
   return (
     <div className="intro-wrapper">
-      <h1 className="intro-name">Danny Wu</h1>
+      <h1 id="intro-name">Danny Wu</h1>
       <Navbox></Navbox>
     </div>
   );

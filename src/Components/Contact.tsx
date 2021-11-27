@@ -9,6 +9,9 @@ interface ContactProps {}
 export const Contact = (props: ContactProps) => {
   return (
     <div className="contact-wrapper">
+      <h1 className="section-title" id="contact">
+        Contact
+      </h1>
       <div className="contact-row">
         {/* eslint-disable-next-line */}
         <a href="">

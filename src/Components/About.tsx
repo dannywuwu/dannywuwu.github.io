@@ -7,7 +7,9 @@ export const About: React.FC<AboutProps> = () => {
   return (
     <div className="about-wrapper">
       <div className="intro">
-        <h1 className="section-title">About</h1>
+        <h1 className="section-title" id="about">
+          About
+        </h1>
         <img src="" alt="danny" />
         <p>
           Nice to meet you! I am a Software Engineering student (SE 2024) at the
