@@ -1,11 +1,11 @@
 import React from "react";
 
-interface Props {
+interface TimelineEntryProps {
   date: string;
   description: string;
 }
 
-export const TimelineEntry = (props: Props) => {
+export const TimelineEntry = (props: TimelineEntryProps) => {
   const { date, description } = props;
   return (
     <div className="timeline-entry">
