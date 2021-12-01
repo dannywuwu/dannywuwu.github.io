@@ -8,6 +8,7 @@
 .App {
   @include mobile-sizing;
   color: $accent;
+  min-width: 150px;
 }
 
 .section-title {
@@ -31,6 +32,16 @@
 .subsection-title {
   text-decoration: underline;
   margin: 2rem 0;
+}
+
+// text selection
+::selection {
+  /* WebKit/Blink Browsers */
+  background: $secondary;
+}
+::-moz-selection {
+  /* Gecko Browsers */
+  background: $secondary;
 }
 
 @media screen and (min-width: $small) {

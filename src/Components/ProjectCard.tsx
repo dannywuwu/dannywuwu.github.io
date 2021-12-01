@@ -13,7 +13,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
   } = props;
   return (
     <div className="project-card">
-      <a href={url}>
+      <a href={url} className="img-link">
         <img src={imgPath} alt={`${name} preview`} />
       </a>
       <div className="project-info">

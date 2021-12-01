@@ -4,6 +4,8 @@ import { ReactComponent as GithubSvg } from "../res/icons/github.svg";
 import { ReactComponent as LinkedinSvg } from "../res/icons/linkedin.svg";
 import { ReactComponent as MailSvg } from "../res/icons/mail.svg";
 
+import "../res/styles/Contact.scss";
+
 interface ContactProps {}
 
 export const Contact = (props: ContactProps) => {
@@ -14,17 +16,17 @@ export const Contact = (props: ContactProps) => {
       </h1>
       <div className="contact-row">
         {/* eslint-disable-next-line */}
-        <a href="">
-          <ClipboardSvg />
+        <a href="mailto: d246wu@gmail.com">
+          <MailSvg />
         </a>
         <a href="https://github.com/dannywuwu">
           <GithubSvg />
         </a>
-        <a href="mailto: d246wu@gmail.com">
+        <a href="https://www.linkedin.com/in/wuda/">
           <LinkedinSvg />
         </a>
-        <a href="https://www.linkedin.com/in/wuda/">
-          <MailSvg />
+        <a href="">
+          <ClipboardSvg />
         </a>
       </div>
     </div>
