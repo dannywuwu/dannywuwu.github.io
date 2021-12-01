@@ -1,6 +1,11 @@
 [] timeline
 [] background colour transition
 [] full highlight navbox buttons
+[] optimize html for seo
+
+- only 1 h1
+
+[] convert projects scss to flex
 
 # napa cabbage
 

@@ -12,7 +12,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
     position,
   } = props;
   return (
-    <article className="project-card">
+    <div className="project-card">
       <a href={url}>
         <img src={imgPath} alt={`${name} preview`} />
       </a>
@@ -20,7 +20,8 @@ export const ProjectCard = (props: ProjectCardProps) => {
         <h3>{name}</h3>
         <i>{date}</i>
         <p>{desc}</p>
+        <p className="tags">Tags: {tags.join(", ")}</p>
       </div>
-    </article>
+    </div>
   );
 };
