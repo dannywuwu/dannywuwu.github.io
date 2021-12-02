@@ -1,5 +1,4 @@
 .contact-wrapper {
-  width: 100%;
   svg {
     width: 50%;
     height: auto;
@@ -8,5 +7,9 @@
 .contact-row {
   display: flex;
   min-width: 0;
-  justify-content: space-around;
+  gap: 15px;
+}
+
+a {
+  display: inherit;
 }

@@ -10,7 +10,7 @@ export const About: React.FC<AboutProps> = () => {
         <h1 className="section-title" id="about">
           About
         </h1>
-        <img src="" alt="danny" />
+        <img src="images/dw.png" alt="danny" />
         <p>
           Nice to meet you! I am a Software Engineering student (SE 2024) at the
           University of Waterloo, looking for fun programs to play around with.
@@ -47,8 +47,8 @@ export const About: React.FC<AboutProps> = () => {
             </p>
           </Card>
           <Card title={"Hobbies"}>
-            In my free time, I enjoy engaging in bodyweight fitness, reading
-            manga, and restricting my consumption of milk tea.
+            In my free time, I enjoy engaging in bodyweight fitness and reading
+            manga. I am currently restricting my consumption of milk tea.
           </Card>
         </div>
       </div>

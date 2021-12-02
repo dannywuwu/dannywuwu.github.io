@@ -28,7 +28,7 @@ const projects: Project[] = [
     date: "Jan 2021",
     desc: "A mindful webapp to track body posture while working at a computer with a webcam.",
     url: "https://github.com/dannywuwu/Aang",
-    imgPath: "img.png",
+    imgPath: "aang.png",
   },
   {
     name: "Colour Detection Robot",
@@ -36,15 +36,15 @@ const projects: Project[] = [
     date: "Nov 2019",
     desc: "An autonomous Arduino car with colour detection.",
     url: "https://github.com/dannywuwu/Hokey-Pokey-Colour-Detection",
-    imgPath: "img.png",
+    imgPath: "hokey-pokey.png",
   },
   {
     name: "Dodger",
-    tags: ["Java"],
+    tags: ["Java", "Game"],
     date: "Dec 2018",
     desc: "A 2D dodging game written in Java with custom sprites where players dodge falling objects.",
     url: "https://github.com/dannywuwu/Dodger",
-    imgPath: "img.png",
+    imgPath: "dodger.png",
   },
 ];
 
