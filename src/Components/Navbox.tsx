@@ -5,7 +5,6 @@ interface NavboxProps {}
 
 export const Navbox: React.FC<NavboxProps> = () => {
   return (
-    // resume, email, github, linkedin
     <div className="nav-wrapper">
       <ul className="nav-box">
         <a href="#about">

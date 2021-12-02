@@ -1,14 +1,30 @@
+@import "styles";
+
 .nav-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
   text-align: center;
-
+  background-color: $secondary;
+  padding: 1rem;
+  position: relative;
   li {
     font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
+}
+
+.nav-box::after {
+  display: block;
+  content: "";
+  position: absolute;
+  background-color: $secondary-accent;
+  top: 8%;
+  left: 4%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .nav-wrapper {

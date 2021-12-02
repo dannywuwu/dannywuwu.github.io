@@ -34,6 +34,10 @@
   margin: 2rem 0;
 }
 
+img {
+  margin: 1rem 0;
+}
+
 // text selection
 ::selection {
   /* WebKit/Blink Browsers */
@@ -44,5 +48,5 @@
   background: $secondary;
 }
 
-@media screen and (min-width: $small) {
+@media screen and (min-width: $medium) {
 }
