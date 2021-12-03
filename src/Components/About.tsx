@@ -6,16 +6,6 @@ interface AboutProps {}
 export const About: React.FC<AboutProps> = () => {
   return (
     <div className="about-wrapper">
-      <div className="intro">
-        <h1 className="section-title" id="about">
-          About
-        </h1>
-        <img src="images/dw.png" alt="danny" />
-        <p>
-          Nice to meet you! I am a Software Engineering student (SE 2024) at the
-          University of Waterloo, looking for fun programs to play around with.
-        </p>
-      </div>
       <div className="stats">
         <h1 className="section-title">Stats</h1>
         {/* Coding */}

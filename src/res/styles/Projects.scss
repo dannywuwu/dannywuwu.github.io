@@ -3,6 +3,9 @@
   justify-content: space-around;
   flex-direction: column;
   gap: 0.5rem;
+  h3 {
+    text-decoration: underline;
+  }
 }
 
 .tags {

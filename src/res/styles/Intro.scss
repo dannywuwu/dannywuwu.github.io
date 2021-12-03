@@ -1,11 +1,9 @@
 .intro-wrapper {
   display: grid;
-  grid-template-rows: 4fr 2fr;
+  grid-template-rows: 3fr 3fr 6fr;
+  height: 95vh;
 }
 
 #intro-name {
-  margin-top: 10vh;
-  margin-bottom: 5vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }

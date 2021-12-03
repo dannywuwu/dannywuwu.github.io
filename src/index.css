@@ -5,6 +5,7 @@
 }
 
 html {
+  height: 100%;
   font-size: 62.5%;
 }
 
@@ -24,6 +25,7 @@ li {
 }
 
 body {
+  min-height: 100%;
   background-color: #fff7eb;
   font-family: "Karla", sans-serif;
 }
