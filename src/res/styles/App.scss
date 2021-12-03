@@ -1,12 +1,17 @@
 @import "styles";
 
-@mixin mobile-sizing {
-  margin: 2rem;
+@mixin mobile-styles {
+  margin: 5%;
   font-size: 1.6rem;
 }
 
+@mixin tablet-styles {
+  margin: 5%;
+  font-size: 2rem;
+}
+
 .App {
-  @include mobile-sizing;
+  @include mobile-styles;
   color: $accent;
   min-width: 150px;
 }
@@ -48,5 +53,8 @@ img {
   background: $secondary;
 }
 
-@media screen and (min-width: $medium) {
+@media screen and (min-width: $tablet) {
+  .App {
+    @include tablet-styles;
+  }
 }

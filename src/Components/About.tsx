@@ -6,7 +6,7 @@ interface AboutProps {}
 export const About: React.FC<AboutProps> = () => {
   return (
     <div className="about-wrapper">
-      <div className="stats">
+      <div className="about-stats">
         <h1 className="section-title">Stats</h1>
         {/* Coding */}
         <div className="coding-stats">

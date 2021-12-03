@@ -3,14 +3,13 @@
     width: 50%;
     height: auto;
   }
+  a {
+    display: inherit;
+  }
 }
 .contact-row {
   display: flex;
   min-width: 0;
   gap: 15px;
   padding-bottom: 2rem;
-}
-
-a {
-  display: inherit;
 }
