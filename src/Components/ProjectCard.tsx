@@ -11,8 +11,10 @@ export const ProjectCard = (props: ProjectCardProps) => {
     project: { name, tags, date, desc, url, imgPath },
     position,
   } = props;
+  const cardClass: string =
+    position % 2 === 0 ? "project-card" : "project-card reverse";
   return (
-    <div className="project-card">
+    <div className={cardClass}>
       <div className="project-info">
         <h3>{name}</h3>
         <i>{date}</i>

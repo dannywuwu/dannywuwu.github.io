@@ -2,17 +2,18 @@
 
 .about-wrapper {
   img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 }
 
-.about-header {
+.header-wrapper {
   display: grid;
+  grid-template-rows: auto 6fr auto;
 }
 
 @media screen and (min-width: $tablet) {
-  .header-intro {
+  .intro-wrapper {
     grid-row: 1/2;
     grid-column: 1/3;
   }

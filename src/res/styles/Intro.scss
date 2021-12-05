@@ -7,13 +7,14 @@
 .header-intro {
   display: grid;
   grid-template-rows: 6fr 6fr;
+  gap: 25%;
 }
 
 .intro-wrapper {
   display: grid;
   img {
     height: auto;
-    width: 100%;
+    max-width: 100%;
   }
 }
 

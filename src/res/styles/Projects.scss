@@ -4,13 +4,20 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  gap: 0.5rem;
   h3 {
     text-decoration: underline;
   }
   img {
-    height: auto;
-    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 }
 
@@ -28,13 +35,26 @@
   .project-card {
     display: flex;
     flex-direction: row;
-
-    .project-info {
-      max-width: 40%;
+    gap: 5%;
+    padding: 5% 0;
+  }
+  .project-info {
+    width: 40%;
+    h3,
+    i,
+    p {
+      text-align: end;
     }
-
-    .project-media {
-      max-width: 60%;
+  }
+  .project-media {
+    width: 60%;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+    h3,
+    i,
+    p {
+      text-align: start;
     }
   }
 }

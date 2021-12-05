@@ -7,5 +7,5 @@ interface HeaderProps {
 
 export const Header = (props: HeaderProps) => {
   const { children } = props;
-  return <header className="about-header">{children}</header>;
+  return <header className="header-wrapper">{children}</header>;
 };
