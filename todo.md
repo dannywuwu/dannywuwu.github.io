@@ -4,6 +4,7 @@
 [] optimize html for seo
 
 - only 1 h1
+- edit index.html meta tags
 
 [] convert projects scss to flex
 
