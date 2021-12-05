@@ -20,7 +20,7 @@ const projects: Project[] = [
     date: "Sept 2021",
     desc: "A Discord bot that analyzes and censors explicit images and profanity.",
     url: "https://github.com/dannywuwu/picture-police",
-    imgPath: "img.png",
+    imgPath: "picture-police.png",
   },
   {
     name: "Aang",
@@ -54,11 +54,13 @@ export const Projects = (props: ProjectsProps) => {
       <h1 className="section-title" id="projects">
         Projects
       </h1>
-      {projects.map((project: Project, i: number) => {
-        return (
-          <ProjectCard key={i} project={project} position={i}></ProjectCard>
-        );
-      })}
+      <div className="project-list">
+        {projects.map((project: Project, i: number) => {
+          return (
+            <ProjectCard key={i} project={project} position={i}></ProjectCard>
+          );
+        })}
+      </div>
     </div>
   );
 };
