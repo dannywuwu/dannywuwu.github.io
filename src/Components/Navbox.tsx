@@ -7,7 +7,7 @@ export const Navbox: React.FC<NavboxProps> = () => {
   return (
     <div className="nav-wrapper">
       <ul className="nav-box">
-        <a href="#about">
+        <a href="#stats">
           <li>About</li>
         </a>
         <a href="#news">
