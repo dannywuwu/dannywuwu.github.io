@@ -1,3 +1,5 @@
+@import "styles";
+
 .project-card {
   display: flex;
   justify-content: space-around;
@@ -16,4 +18,23 @@
   font-style: italic;
   font-size: smaller;
   margin: 0.5rem 0;
+}
+
+@media screen and (min-width: $tablet) {
+  .project-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-card {
+    display: flex;
+    flex-direction: row;
+
+    .project-info {
+      max-width: 40%;
+    }
+
+    .project-media {
+      max-width: 60%;
+    }
+  }
 }
