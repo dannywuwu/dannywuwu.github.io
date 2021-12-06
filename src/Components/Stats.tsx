@@ -5,8 +5,10 @@ interface StatsProps {}
 
 export const Stats: React.FC<StatsProps> = () => {
   return (
-    <div className="stats-wrapper" id="stats">
-      <h1 className="section-title">Stats</h1>
+    <div className="stats-wrapper">
+      <h1 className="section-title" id="stats">
+        Stats
+      </h1>
       <div className="stats-section">
         {/* Coding */}
         <div className="coding-stats">

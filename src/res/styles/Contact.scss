@@ -1,3 +1,5 @@
+@import "styles";
+
 .contact-wrapper {
   min-height: 15vh;
   svg {
@@ -13,4 +15,11 @@
   min-width: 0;
   gap: 5%;
   padding-bottom: 2rem;
+}
+
+@media screen and (min-width: $tablet) {
+  // center contact row
+  .contact-row {
+    justify-content: center;
+  }
 }
