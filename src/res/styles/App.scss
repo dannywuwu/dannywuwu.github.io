@@ -1,13 +1,17 @@
 @import "styles";
 
 @mixin mobile-styles {
-  margin: 5%;
+  margin: $mobile-margin;
   font-size: 1.6rem;
 }
 
 @mixin tablet-styles {
-  margin: 5%;
+  margin: $tablet-margin;
   font-size: 2rem;
+}
+
+@mixin laptop-styles {
+  margin: 0;
 }
 
 .App {
@@ -56,5 +60,15 @@ img {
 @media screen and (min-width: $tablet) {
   .App {
     @include tablet-styles;
+  }
+}
+
+@media screen and (min-width: $laptop) {
+  .App {
+    @include laptop-styles;
+  }
+  .section-title {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
