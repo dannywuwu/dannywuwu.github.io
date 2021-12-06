@@ -58,3 +58,9 @@
     }
   }
 }
+
+@media screen and (min-width: $laptop) {
+  .projects-wrapper {
+    margin: 0 20%;
+  }
+}
