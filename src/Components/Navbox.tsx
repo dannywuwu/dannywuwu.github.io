@@ -1,5 +1,6 @@
 import React from "react";
 import "../res/styles/Navbox.scss";
+import { Contact } from "./Contact";
 
 interface NavboxProps {}
 

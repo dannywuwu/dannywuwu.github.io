@@ -24,6 +24,28 @@
     grid-template-rows: 12fr;
   }
   .intro-wrapper {
-    display: block;
+    display: grid;
+  }
+}
+
+@media screen and (min-width: $laptop) {
+  .intro-wrapper {
+    display: grid;
+    gap: 0;
+    grid-template-rows: repeat(2, 50vh);
+    grid-template-columns: 1fr;
+    #intro-name {
+      grid-column: 1/2;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2%;
+      font-size: 4em;
+      z-index: -1;
+    }
+    .nav-wrapper {
+      grid-row: 2/3;
+      z-index: 1;
+      margin: 0 auto;
+    }
   }
 }
