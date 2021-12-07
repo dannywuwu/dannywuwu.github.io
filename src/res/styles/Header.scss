@@ -9,6 +9,8 @@
 
 .header-wrapper {
   display: grid;
+  row-gap: 5vh;
+  grid-template-rows: 20vh 70vh auto;
 }
 
 @media screen and (min-width: $tablet) {

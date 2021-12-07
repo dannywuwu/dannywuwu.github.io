@@ -1,5 +1,9 @@
 @import "styles";
 
+.news-wrapper {
+  padding: 5% 0;
+}
+
 .timeline-entry {
   i {
     display: block;
@@ -24,9 +28,5 @@
 @media screen and (min-width: $laptop) {
   .timeline-entry {
     grid-template-columns: 2fr auto;
-  }
-  .news-wrapper {
-    margin-left: 10%;
-    margin-right: 10%;
   }
 }
