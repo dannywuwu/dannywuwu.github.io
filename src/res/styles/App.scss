@@ -68,6 +68,10 @@ img {
 }
 
 @media screen and (min-width: $laptop) {
+  html {
+    scroll-padding-top: 50px;
+  }
+
   .App {
     @include laptop-styles;
   }

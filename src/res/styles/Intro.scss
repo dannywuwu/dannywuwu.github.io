@@ -19,6 +19,9 @@
 }
 
 @media screen and (min-width: $tablet) {
+  #intro-name {
+    margin-bottom: 5%;
+  }
   .header-intro {
     display: grid;
     grid-template-rows: 12fr;
