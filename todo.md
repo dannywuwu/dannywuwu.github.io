@@ -2,6 +2,7 @@
 [] background colour transition
 [] full highlight navbox buttons
 [] optimize html for seo
+[] github buttons for tablet+ project cards
 
 - only 1 h1
 - edit index.html meta tags
