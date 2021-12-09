@@ -9,6 +9,8 @@
 
 [] convert projects scss to flex
 
+- better contact page (include email)
+
 # napa cabbage
 
 [] bot usage gif

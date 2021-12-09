@@ -26,7 +26,7 @@ export const Stats: React.FC<StatsProps> = () => {
             </p>
           </Card>
           <Card title={"Tools"}>
-            <p>Vim • Git • Firebase • Bash • Websockets • Jest</p>
+            <p>Vim • Git • Firebase • Bash • Docker • Websockets • Jest</p>
           </Card>
         </div>
         {/* Personal */}
