@@ -4,6 +4,8 @@ import { ReactComponent as GithubSvg } from "../res/icons/github.svg";
 import { ReactComponent as LinkedinSvg } from "../res/icons/linkedin.svg";
 import { ReactComponent as MailSvg } from "../res/icons/mail.svg";
 
+import Resume from "../res/DannyWuResume.pdf";
+
 import "../res/styles/Contact.scss";
 
 interface ContactProps {}
@@ -25,7 +27,7 @@ export const Contact = (props: ContactProps) => {
         <a href="https://www.linkedin.com/in/wuda/">
           <LinkedinSvg />
         </a>
-        <a href="">
+        <a href={Resume} target="_blank" rel="noopener noreferrer">
           <ClipboardSvg />
         </a>
       </div>
