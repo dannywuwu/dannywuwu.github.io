@@ -4,12 +4,6 @@
   margin: auto;
 }
 
-.header-intro {
-  display: grid;
-  grid-template-rows: 6fr 6fr;
-  gap: 25%;
-}
-
 .intro-wrapper {
   display: grid;
   img {
@@ -21,10 +15,6 @@
 @media screen and (min-width: $tablet) {
   #intro-name {
     margin-bottom: 5%;
-  }
-  .header-intro {
-    display: grid;
-    grid-template-rows: 12fr;
   }
   .intro-wrapper {
     display: grid;

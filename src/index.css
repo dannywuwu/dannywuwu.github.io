@@ -33,3 +33,7 @@ body {
 h1 {
   font-family: "Karla-Bold", sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
