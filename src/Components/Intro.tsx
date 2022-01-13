@@ -7,7 +7,10 @@ interface IntroProps {}
 export const Intro = (props: IntroProps) => {
   return (
     <div className="intro-wrapper">
-      <h1 id="intro-name">Danny Wu</h1>
+      <p className="intro-text">
+        <h1 id="intro-name">Danny Wu</h1>
+        <p id="intro-education">University of Waterloo SE24</p>
+      </p>
       <Navbox></Navbox>
     </div>
   );

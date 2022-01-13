@@ -4,21 +4,18 @@
   margin: auto;
 }
 
+#intro-education {
+  margin: auto;
+}
+
 .intro-wrapper {
   display: grid;
+  grid-gap: 1em;
   img {
     height: auto;
     max-width: 100%;
   }
-}
-
-@media screen and (min-width: $tablet) {
-  #intro-name {
-    margin-bottom: 5%;
-  }
-  .intro-wrapper {
-    display: grid;
-  }
+  margin-bottom: 1em;
 }
 
 @media screen and (min-width: $laptop) {
@@ -27,13 +24,18 @@
     gap: 0;
     grid-template-rows: repeat(2, 50vh);
     grid-template-columns: 1fr;
+    .intro-text {
+      margin: auto;
+      margin-bottom: 1em;
+    }
     #intro-name {
-      grid-column: 1/2;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 2%;
       font-size: 4em;
       z-index: -1;
+    }
+    #intro-education {
+      text-align: center;
     }
     .nav-wrapper {
       grid-row: 2/3;

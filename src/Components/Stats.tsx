@@ -1,4 +1,5 @@
 import React from "react";
+import "../res/styles/Stats.scss";
 import { Card } from "./Card";
 
 interface StatsProps {}

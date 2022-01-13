@@ -4,7 +4,6 @@ import "./res/styles/App.scss";
 import { Intro } from "./components/Intro";
 import { About } from "./components/About";
 import { Stats } from "./components/Stats";
-import { Header } from "./components/Header";
 import { News } from "./components/News";
 import { Contact } from "./components/Contact";
 import { Projects } from "./components/Projects";
@@ -12,11 +11,9 @@ import { Projects } from "./components/Projects";
 function App() {
   return (
     <div className="App">
-      <Header>
-        <Intro></Intro>
-        <About></About>
-        <Stats></Stats>
-      </Header>
+      <Intro></Intro>
+      <About></About>
+      <Stats></Stats>
       <News></News>
       <Projects></Projects>
       <Contact></Contact>
