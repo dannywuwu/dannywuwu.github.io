@@ -8,7 +8,7 @@ export const Stats: React.FC<StatsProps> = () => {
   return (
     <div className="stats-wrapper">
       <h1 className="section-title" id="stats">
-        Stats
+        About
       </h1>
       <div className="stats-section">
         {/* Coding */}

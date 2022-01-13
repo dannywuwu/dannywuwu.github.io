@@ -1,16 +1,22 @@
 @import "styles";
 
+.intro-text {
+  margin: auto;
+  margin-bottom: 1em;
+}
+
 #intro-name {
   margin: auto;
+  text-align: center;
 }
 
 #intro-education {
   margin: auto;
+  text-align: center;
 }
 
 .intro-wrapper {
   display: grid;
-  grid-gap: 1em;
   img {
     height: auto;
     max-width: 100%;
@@ -23,19 +29,8 @@
     display: grid;
     gap: 0;
     grid-template-rows: repeat(2, 50vh);
-    grid-template-columns: 1fr;
-    .intro-text {
-      margin: auto;
-      margin-bottom: 1em;
-    }
     #intro-name {
-      margin-left: auto;
-      margin-right: auto;
       font-size: 4em;
-      z-index: -1;
-    }
-    #intro-education {
-      text-align: center;
     }
     .nav-wrapper {
       grid-row: 2/3;
