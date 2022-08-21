@@ -4,8 +4,10 @@ import { Timeline } from "./Timeline";
 interface NewsProps {}
 
 const experiences: Record<string, string> = {
+  "May 2022":
+    'Entered IBM through its Extreme Blue program as a technical intern, working on an enhancement for IBM\'s Mono2Micro in defining "good" sets of microservice APIs for partitioned monolithic applications.',
   "Sept 2021":
-    "Back at Smart & Biggar, building an NLP ML classification model and performing data engineering in Python. I also did some Angular fullstack development on the side.",
+    "Back at Smart & Biggar, building an NLP ML classification model and performing data engineering in Python. I also introduced Angular and Docker to the organization's tech stack to help facilitate the modernization of their codebase.",
   "Jan 2021":
     "Started an internship at Smart & Biggar, developing a dashboard framework from scratch in ASP.NET Core and wrote its respective web API in C#.",
   "Jun 2020":
