@@ -10,6 +10,12 @@
   img {
     max-width: 100%;
   }
+  .url {
+    font-style:italic;
+    text-decoration: underline;
+    font-size: smaller;
+    margin: 0.5rem 0;
+  }
 }
 
 .project-info {
@@ -42,7 +48,8 @@
     width: 40%;
     h3,
     i,
-    p {
+    p,
+    a {
       text-align: end;
     }
   }
@@ -53,7 +60,8 @@
     flex-direction: row-reverse;
     h3,
     i,
-    p {
+    p,
+    a {
       text-align: start;
     }
   }
@@ -62,5 +70,8 @@
 @media screen and (min-width: $laptop) {
   .projects-wrapper {
     margin: 0 20%;
+  }
+  .project-info {
+    width: 45%;
   }
 }
