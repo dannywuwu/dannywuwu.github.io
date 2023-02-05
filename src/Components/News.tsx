@@ -4,6 +4,8 @@ import { Timeline } from "./Timeline";
 interface NewsProps {}
 
 const experiences: Record<string, string> = {
+  "Jan 2023":
+    "Joined Faire and worked on backend engineering with the Faire Direct Growth team.",
   "May 2022":
     'Entered IBM through its Extreme Blue program as a technical intern, working on an enhancement for IBM\'s Mono2Micro in defining "good" sets of microservice APIs for partitioned monolithic applications.',
   "Sept 2021":
