@@ -47,6 +47,12 @@ img {
   margin: 1rem 0;
 }
 
+// Navbox smooth scroll
+html { 
+  scroll-behavior: smooth;
+   -webkit-scroll-behavior: smooth 
+}
+
 // text selection
 ::selection {
   /* WebKit/Blink Browsers */

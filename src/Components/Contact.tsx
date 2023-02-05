@@ -21,10 +21,18 @@ export const Contact = (props: ContactProps) => {
         <a href="mailto: d246wu@gmail.com">
           <MailSvg />
         </a>
-        <a href="https://github.com/dannywuwu">
+        <a
+          href="https://github.com/dannywuwu"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <GithubSvg />
         </a>
-        <a href="https://www.linkedin.com/in/wuda/">
+        <a
+          href="https://www.linkedin.com/in/wuda/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <LinkedinSvg />
         </a>
         <a href={Resume} target="_blank" rel="noopener noreferrer">
