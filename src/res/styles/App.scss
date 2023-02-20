@@ -54,6 +54,24 @@ html {
    -webkit-scroll-behavior: smooth 
 }
 
+// scrollbar styling
+/* Width */
+::-webkit-scrollbar {
+  width: 1.5rem;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: $primary;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $secondary;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $accent;
+}
+
 // text selection
 ::selection {
   /* WebKit/Blink Browsers */
