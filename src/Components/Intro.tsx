@@ -17,7 +17,7 @@ export const Intro = (props: IntroProps) => {
       variants={intro}
       initial={"hidden"}
       animate={"visible"}
-      transition={{ duration: 1.5 }}
+      transition={{ duration: 1 }}
     >
       <div className="intro-text">
         <h1 id="intro-name">Danny Wu</h1>
