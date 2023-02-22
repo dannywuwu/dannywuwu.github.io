@@ -13,7 +13,7 @@ interface ContactProps {}
 export const Contact = (props: ContactProps) => {
   return (
     <div className="contact-wrapper">
-      <h1 className="section-title" id="contact">
+      <h1 className="section-title" id="Contact">
         Contact
       </h1>
       <div className="contact-row">

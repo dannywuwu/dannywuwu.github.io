@@ -21,7 +21,7 @@ const experiences: Record<string, string> = {
 export const News: React.FC<NewsProps> = (props: NewsProps) => {
   return (
     <div className="news-wrapper">
-      <h1 className="section-title" id="news">
+      <h1 className="section-title" id="News">
         News
       </h1>
       <Timeline entries={experiences}></Timeline>

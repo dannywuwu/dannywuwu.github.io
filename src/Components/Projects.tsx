@@ -51,7 +51,7 @@ const projects: Project[] = [
 export const Projects = (props: ProjectsProps) => {
   return (
     <div className="projects-wrapper">
-      <h1 className="section-title" id="projects">
+      <h1 className="section-title" id="Projects">
         Projects
       </h1>
       <div className="project-list">
