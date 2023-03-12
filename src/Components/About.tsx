@@ -8,7 +8,7 @@ interface AboutProps {}
 export const About: React.FC<AboutProps> = () => {
   return (
     <div className="about-wrapper">
-      <HiddenVisibleAnimation duration={0.5}>
+      <HiddenVisibleAnimation duration={0.75}>
         <h1 className="section-title" id="About">
           About
         </h1>
