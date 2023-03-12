@@ -15,7 +15,7 @@ const HiddenVisibleAnimation = (props: Props) => {
   const { children, duration } = props;
   return (
     <motion.div
-      className="portrait-container"
+      className="hidden-visible-wrapper"
       variants={hiddenVisible}
       initial={"hidden"}
       whileInView={"visible"}
