@@ -7,15 +7,16 @@ import { ReactComponent as MailSvg } from "../res/icons/mail.svg";
 import Resume from "../res/DannyWuResume.pdf";
 
 import "../res/styles/Contact.scss";
+import HoverAnimation from "./HoverAnimation";
 
 interface ContactProps {}
 
-interface Contact {
+interface ContactEntry {
   href: string;
   icon: ReactNode;
 }
 
-const contacts: Contact[] = [
+const contacts: ContactEntry[] = [
   {
     href: "mailto: d246wu@gmail.com",
     icon: <MailSvg />,
@@ -42,12 +43,14 @@ export const Contact = (props: ContactProps) => {
       </h1>
       <div className="contact-row">
         {/* eslint-disable-next-line */}
-        {contacts.map((contact: Contact, i: number) => {
+        {contacts.map((contact: ContactEntry, i: number) => {
           const { href, icon } = contact;
           return (
-            <a href={href} target="_blank" rel="noreferrer noopener">
-              {icon}
-            </a>
+            <HoverAnimation scale={1.1}>
+              <a href={href} target="_blank" rel="noreferrer noopener">
+                {icon}
+              </a>
+            </HoverAnimation>
           );
         })}
       </div>
