@@ -24,6 +24,7 @@ const HiddenVisibleAnimation = (props: Props) => {
       whileInView={"visible"}
       viewport={{ once: true }}
       transition={{ duration }}
+      style={{ margin: 0 }}
     >
       {children}
     </motion.div>
