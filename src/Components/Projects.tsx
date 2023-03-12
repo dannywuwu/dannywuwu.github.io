@@ -1,6 +1,7 @@
 import React from "react";
 import { ProjectCard } from "./ProjectCard";
 import "../res/styles/Projects.scss";
+import HiddenVisibleAnimation from "./HiddenVisibleAnimation";
 
 interface ProjectsProps {}
 
@@ -51,13 +52,17 @@ const projects: Project[] = [
 export const Projects = (props: ProjectsProps) => {
   return (
     <div className="projects-wrapper">
-      <h1 className="section-title" id="Projects">
-        Projects
-      </h1>
+      <HiddenVisibleAnimation duration={0.5}>
+        <h1 className="section-title" id="Projects">
+          Projects
+        </h1>
+      </HiddenVisibleAnimation>
       <div className="project-list">
         {projects.map((project: Project, i: number) => {
           return (
-            <ProjectCard key={i} project={project} position={i}></ProjectCard>
+            <HiddenVisibleAnimation duration={0.5 + 0.05 * i}>
+              <ProjectCard key={i} project={project} position={i}></ProjectCard>
+            </HiddenVisibleAnimation>
           );
         })}
       </div>
