@@ -4,6 +4,7 @@ import React, { ReactNode } from "react";
 type Props = {
   children: ReactNode;
   duration: Number;
+  htmlClass?: string[];
 };
 
 const hiddenVisible = {
@@ -12,10 +13,12 @@ const hiddenVisible = {
 };
 
 const HiddenVisibleAnimation = (props: Props) => {
-  const { children, duration } = props;
+  const { children, duration, htmlClass } = props;
   return (
     <motion.div
-      className="hidden-visible-wrapper"
+      className={`hidden-visible-wrapper ${
+        htmlClass ? htmlClass.join(" ") : ""
+      }`}
       variants={hiddenVisible}
       initial={"hidden"}
       whileInView={"visible"}
