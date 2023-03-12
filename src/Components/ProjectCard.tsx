@@ -1,4 +1,5 @@
 import React from "react";
+import HoverAnimation from "./HoverAnimation";
 import { Project } from "./Projects";
 
 interface ProjectCardProps {
@@ -24,15 +25,17 @@ export const ProjectCard = (props: ProjectCardProps) => {
         </a>
       </div>
       <div className="project-media">
-        <a
-          href={url}
-          className="img-link"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <img src={`images/${imgPath}`} alt={`${name} preview`} />
-        </a>
-        <p className="tags">Tags: {tags.join(", ")}</p>
+        <HoverAnimation scale={1.05}>
+          <a
+            href={url}
+            className="img-link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={`images/${imgPath}`} alt={`${name} preview`} />
+          </a>
+          <p className="tags">Tags: {tags.join(", ")}</p>
+        </HoverAnimation>
       </div>
     </div>
   );
