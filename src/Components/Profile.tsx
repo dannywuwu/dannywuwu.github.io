@@ -7,7 +7,7 @@ interface ProfileProps {}
 export const Profile = (props: ProfileProps) => {
   return (
     <div className="profile-wrapper">
-      <HiddenVisibleAnimation duration={0.5}>
+      <HiddenVisibleAnimation duration={0.5} htmlClass={["portrait-container"]}>
         <img src="images/dw.png" alt="danny" id="portrait" />
         <p id="portrait-info">
           Nice to meet you! I am a Software Engineering student (SE 2024) at the
