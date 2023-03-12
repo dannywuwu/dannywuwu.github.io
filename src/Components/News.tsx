@@ -1,4 +1,5 @@
 import React from "react";
+import HiddenVisibleAnimation from "./HiddenVisibleAnimation";
 import { Timeline } from "./Timeline";
 
 interface NewsProps {}
@@ -21,9 +22,11 @@ const experiences: Record<string, string> = {
 export const News: React.FC<NewsProps> = (props: NewsProps) => {
   return (
     <div className="news-wrapper">
-      <h1 className="section-title" id="News">
-        News
-      </h1>
+      <HiddenVisibleAnimation duration={0.5}>
+        <h1 className="section-title" id="News">
+          News
+        </h1>
+      </HiddenVisibleAnimation>
       <Timeline entries={experiences}></Timeline>
     </div>
   );

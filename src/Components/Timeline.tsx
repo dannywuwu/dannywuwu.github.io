@@ -1,6 +1,7 @@
 import React from "react";
 import { TimelineEntry } from "./TimelineEntry";
 import "../res/styles/Timeline.scss";
+import HiddenVisibleAnimation from "./HiddenVisibleAnimation";
 
 interface TimelineProps {
   entries: Record<string, string>;
@@ -14,11 +15,13 @@ export const Timeline: React.FC<TimelineProps> = (props: TimelineProps) => {
     (date: string, i: number) => {
       const description = entries[date];
       return (
-        <TimelineEntry
-          key={i}
-          date={date}
-          description={description}
-        ></TimelineEntry>
+        <HiddenVisibleAnimation duration={0.5 + 0.05 * i}>
+          <TimelineEntry
+            key={i}
+            date={date}
+            description={description}
+          ></TimelineEntry>
+        </HiddenVisibleAnimation>
       );
     }
   );
