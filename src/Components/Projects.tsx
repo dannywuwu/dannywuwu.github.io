@@ -16,6 +16,29 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    name: "Things2Do",
+    tags: ["React", "Express", "Yelp", "OpenStreetMap", "Tailwind", "NFT"],
+    date: "Jan 2023",
+    desc: "A day trip planner that dynamically generates custom trip itineraries based on user preferences.",
+    url: "https://github.com/dannywuwu/Things2Do",
+    imgPath: "things2do.png",
+  },
+  {
+    name: "Video Guesser",
+    tags: [
+      "React",
+      "TypeScript",
+      "Express",
+      "Socket.IO",
+      "Ant Design",
+      "Youtube",
+    ],
+    date: "Oct 2021",
+    desc: "An multiplayer Youtube video trivia game to play with friends.",
+    url: "https://github.com/dannywuwu/video-guesser",
+    imgPath: "video-guesser.png",
+  },
+  {
     name: "Picture Police",
     tags: ["Python", "Flask", "Discord", "OCR", "PIL", "NLTK"],
     date: "Sept 2021",
