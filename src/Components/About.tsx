@@ -20,18 +20,16 @@ export const About: React.FC<AboutProps> = () => {
             <h2 className="subsection-title">Coding</h2>
             <Card title={"Languages"}>
               <p>
-                Python • C# • C++ • C • Java • SQL • JavaScript (TypeScript) •
-                HTML/CSS (Sass)
+                Python • JavaScript • TypeScript • C# • C++ • C • Java • Scala • Kotlin • Rust • SQL • HTML/CSS
               </p>
             </Card>
             <Card title={"Frameworks"}>
               <p>
-                React/Redux • React Native • Angular • Flask • Node • Express •
-                ASP.NET Core • Dapper ORM
+                Flask • Node • Express • ASP.NET Core • React/Redux • Hibernate • JUnit • Jest • PyTest
               </p>
             </Card>
             <Card title={"Tools"}>
-              <p>Vim • Git • Firebase • Bash • Docker • Websockets • Jest</p>
+              <p>Vim • Git • Firebase • Bash • Docker • Websockets</p>
             </Card>
           </div>
           {/* Personal */}

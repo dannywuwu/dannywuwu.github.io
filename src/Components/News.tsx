@@ -5,6 +5,8 @@ import { Timeline } from "./Timeline";
 interface NewsProps {}
 
 const experiences: Record<string, string> = {
+  "Sept 2023":
+    "Flew to NYC and did a tech internship with Balyasny Asset Management. Rotated through the Risk, Operations, and Treasury teams, improving their processes and workflows.",
   "Jan 2023":
     "Joined Faire and worked on backend engineering with the Faire Direct Growth team - I built some tools to take action against commission abuse, saving over $300K in commission losses.",
   "May 2022":
